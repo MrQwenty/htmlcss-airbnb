@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-image: url(sfondo.jpg);
+  background-size: cover;
+  border-style: solid;
+  border-color: black;
+  border-width: thin;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.layover{
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.0);
+}
+
+.photo{
+  width:100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+p{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+.Londra{
+  width: 30%;
+  height: 30%;
+  background: url(londra.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%,-5%);
+}
+
+.Berlino{
+  width: 30%;
+  height: 30%;
+  background: url(berlino.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.Roma{
+  width: 30%;
+  height: 30%;
+  background: url(roma.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 95%;
+  transform: translate(-50%,-95%);
+}
